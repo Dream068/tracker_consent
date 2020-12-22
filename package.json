@@ -2,7 +2,7 @@
   "name": "trackers-consent",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/index",
   "scripts": {
     "start": "webpack serve --config ./config/webpack.config.dev.js --hot",
     "build": "webpack",
@@ -19,7 +19,7 @@
     "@material-ui/icons": "^4.9.1",
     "i18next": "^19.8.4",
     "prop-types": "^15.7.2",
-    "react": "^17.0.1",
+    "react": "^16.13.1",
     "react-cookie": "^4.0.3",
     "react-i18next": "^11.8.4",
     "webpack-dev-server": "^3.11.0"
